@@ -11,6 +11,8 @@ import WebKit
 
 
 class ViewController: UIViewController {
+    
+    static let urlString = "https://google.co.jp"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +28,7 @@ class ViewController: UIViewController {
         navigationController?.navigationBar.scrollEdgeAppearance = appearance
     }
     @IBAction func didTappedSFSafariViewButton(_ sender: Any) {
-        let url = URL(string: "http://google.co.jp")!
+        let url = URL(string: Self.urlString)!
         let safariVC = SFSafariViewController(url: url)
         present(safariVC, animated: true)
     }
@@ -40,7 +42,7 @@ class ViewController: UIViewController {
         //        naviVC.navigationBar.setBackgroundImage(UIImage(), for: .default)
         //        naviVC.navigationBar.shadowImage = UIImage()
         //        naviVC.navigationBar.barTintColor = .systemBackground
-        self.navigationController?.pushViewController(WebViewController(url: URL(string: "http://google.co.jp")!), animated: true)
+        self.navigationController?.pushViewController(WebViewController(url: URL(string: Self.urlString)!), animated: true)
     }
     
 }
