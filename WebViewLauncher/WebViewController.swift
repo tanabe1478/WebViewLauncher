@@ -63,7 +63,7 @@ class WebViewController: UIViewController, WKNavigationDelegate {
     }
     
     @objc private func closeButtonTapped() {
-        dismiss(animated: true, completion: nil)
+        self.navigationController?.popViewController(animated: true)
     }
     
     private func loadInitialURL() {
