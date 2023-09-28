@@ -7,6 +7,8 @@
 
 import UIKit
 import SafariServices
+import WebKit
+
 
 class ViewController: UIViewController {
 
@@ -21,7 +23,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func didTappedWKWebViewButton(_ sender: Any) {
+        let naviVC = UINavigationController(rootViewController: WebViewController(url: URL(string: "http://google.co.jp")!))
+        
+        naviVC.navigationBar.isTranslucent = false
+        naviVC.modalPresentationStyle = .fullScreen
+        naviVC.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        naviVC.navigationBar.shadowImage = UIImage()
+        naviVC.navigationBar.barTintColor = .systemBackground
+        present(naviVC, animated: true)
     }
     
 }
+
 

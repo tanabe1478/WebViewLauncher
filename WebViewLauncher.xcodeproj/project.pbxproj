@@ -16,6 +16,7 @@
 		B582A0432AC537B600287B3A /* WebViewLauncherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A0422AC537B600287B3A /* WebViewLauncherTests.swift */; };
 		B582A04D2AC537B600287B3A /* WebViewLauncherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A04C2AC537B600287B3A /* WebViewLauncherUITests.swift */; };
 		B582A04F2AC537B600287B3A /* WebViewLauncherUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A04E2AC537B600287B3A /* WebViewLauncherUITestsLaunchTests.swift */; };
+		B582A0602AC5A50900287B3A /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B582A05F2AC5A50900287B3A /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B582A0482AC537B600287B3A /* WebViewLauncherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewLauncherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B582A04C2AC537B600287B3A /* WebViewLauncherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewLauncherUITests.swift; sourceTree = "<group>"; };
 		B582A04E2AC537B600287B3A /* WebViewLauncherUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewLauncherUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B582A05F2AC5A50900287B3A /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				B582A02D2AC537B400287B3A /* SceneDelegate.swift */,
 				B582A02F2AC537B400287B3A /* ViewController.swift */,
 				B582A0312AC537B400287B3A /* Main.storyboard */,
+				B582A05F2AC5A50900287B3A /* WebViewController.swift */,
 				B582A0342AC537B600287B3A /* Assets.xcassets */,
 				B582A0362AC537B600287B3A /* LaunchScreen.storyboard */,
 				B582A0392AC537B600287B3A /* Info.plist */,
@@ -261,6 +264,7 @@
 				B582A0302AC537B400287B3A /* ViewController.swift in Sources */,
 				B582A02C2AC537B400287B3A /* AppDelegate.swift in Sources */,
 				B582A02E2AC537B400287B3A /* SceneDelegate.swift in Sources */,
+				B582A0602AC5A50900287B3A /* WebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
